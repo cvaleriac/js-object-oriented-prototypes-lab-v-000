@@ -2,7 +2,7 @@ function BoardMember(name, homeState, training){
   this.name = name
   this.homeState = homeState
   this.training = training
-}
+};
 
 User.prototype.veto = function() {
     retun "No, I must disagree");
